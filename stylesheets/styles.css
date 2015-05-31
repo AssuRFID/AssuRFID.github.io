@@ -108,6 +108,19 @@ a:active {
 /* =============================================================================
    Typography
    ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+}
+
+pre, code {
+  font-family: 'Ubuntu Mono', Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+body {
+  font-family: 'Open Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+
 /*
  * Addresses font sizes and margins set differently in IE6/7
  * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
