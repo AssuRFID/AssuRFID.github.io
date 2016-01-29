@@ -1,73 +1,260 @@
-<!doctype html>
-<html>
-  <head>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Ubuntu|Ubuntu+Mono' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="google-site-verification" content="7jOAHmFH-hiFmfeafuq94ZOnXlGwZoopgcPmHiIVSIc" />
-    <meta name="google-site-verification" content="i7IM5S45oyvqkU09F6WOgMkaJgyRMFAXDyl75fULwlY" />
-    <title>AssuRFID by AssuRFID</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AssuRFID</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  </head>
-  <body>
+</head>
 
-      <header>
-        <h1>AssuRFID</h1>
-        <p>Effortless Security</p>
-      </header>
+<body>
 
-      <div id="banner">
-        <span id="logo"></span>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">AssuRFID</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-        <a href="https://github.com/AssuRFID" class="button fork"><strong>View On GitHub</strong></a>
-      </div><!-- end banner -->
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h1>
-<a id="why-did-we-start-assurfid" class="anchor" href="#why-did-we-start-assurfid" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why did we start AssuRFID?</h1>
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
 
-<p>We started AssuRFID out of a need for a simple method for employers and educators to keep track of employees' and students' attendance and locations, allowing them to open doors, pay for lunch and log into computers using a unique, embedded, uncloneable RFID tag in their clothes.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r0Nqcr1Kesw" frameborder="0" allowfullscreen></iframe>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>AssuRFID</h1>
+                        <h3>Effortless Security</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/AssuRFID" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AssuRFID" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UC2kgle0gZEV7uLQgnW2OaMQ" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+        <!-- /.container -->
 
-<h1>
-<a id="how-does-assurfid-work" class="anchor" href="#how-does-assurfid-work" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does AssuRFID work?</h1>
-
-<p>AssuRFID uses existing Radio Frequency Identification technologies to deliver cheap, reliable solutions for organisations.</p>
-
-<h1>
-<a id="who-can-make-use-of-assurfid" class="anchor" href="#who-can-make-use-of-assurfid" aria-hidden="true"><span class="octicon octicon-link"></span></a>Who can make use of AssuRFID?</h1>
-
-<p>AssuRFID is an incredibly versatile technology, which can be deployed in all sectors, from industry to education. Whether your organisation wants to keep track of people, needs flexible methods to control access locations or resources, or simply wants you to pay for your lunch, you will no doubt find AssuRFID invaluable.</p>
-
-<h1>
-<a id="our-prototype" class="anchor" href="#our-prototype" aria-hidden="true"><span class="octicon octicon-link"></span></a>Our prototype</h1>
-
-<p>We have been working on a Raspberry Pi based prototype making use of an NFC module. You can find our code <a href="https://github.com/AssuRFID/assurpid">on GitHub</a>. It makes use of Python, SQLite, libnfc and the Raspberry Pi's GPIO to provide a working NFC-based prototype.</p>
-
-<p>Additionally, a prototype web interface intended for administrators of the system wishing to view attendence data is located <a href="http://h.fanapp.mobi/assurfid">at fanapp.mobi</a>.</p>
-
-<h1>
-<a id="who-are-assurfid" class="anchor" href="#who-are-assurfid" aria-hidden="true"><span class="octicon octicon-link"></span></a>Who are AssuRFID?</h1>
-
-<p>We are two students from Loughborough Grammar School, Yaseen and Alex. After the hard work we have put into AssuRFID, we would love to see it become a reality.</p>
-      </section>
-      <footer>
-      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row vertical-align">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">AssuRFID: security for the modern world</h2>
+                    <p class="lead">A new entry into the world of security, AssuRFID brings ease and simplicity to the ever more important task of keeping our workplaces, buildings and technology secure, all while guaranteeing best-in-class security.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/man-through-doors.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row vertical-align">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Technology from the Future</h2>
+                    <p class="lead">AssuRFID combines wireless radio technology with the latest in Electrocardiography, enabling users to make use of the most secure, affordable authentication system.<br><br>
+						It uses uncloneable, anti-counterfeited Radio Frequency Identification (RFID) tags embedded into a wristband worn by the user, along with their cardiac rhythm, in order to enable their security with 2-factor authentication.<br><br>
+						To ensure easy administration of the system, AssuRFID employs a custom server backed by a database, to which the sensors across the whole campus connect.
+					</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/wristbands.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row vertical-align">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">AssuRFID is versatile</h2>
+                    <p class="lead">When designing AssuRFID, we realised that our technology could be applied to numerous settings. These range from banks, prisons and workplaces, to maternity wards, schools and business-places.<br><br>
+					These applications each share a need for easy to use yet secure authentication to open doors, sign into systems, log onto computers and much, much more.<br><br>
+					In addition we will have custom models for maternity wards, with tags on the mother and embedded in the baby grow, so the they can only leave with the right child.
+					</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/hospital.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	<div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Check out our prototype</h2>
+                    <p class="lead">Our working prototype, named Assured, comprises a suite of custom applications which implement AssuRFID's vision, including a web server which clients connect to, and a custom Graphical User Interface (GUI) to add new users and log them in.<br><br>
+					Our code is fully open source, and can be found online in our GitHub repositories for <a href="http://github.com/assurfid/assured-server">assured-server</a> and <a href="http://github.com/assurfid/assured-gui">assured-gui<a>.
+					</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/raspi.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+	
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Connect to AssuRFID:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/AssuRFID" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/AssuRFID" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC2kgle0gZEV7uLQgnW2OaMQ" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; AssuRFID 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
